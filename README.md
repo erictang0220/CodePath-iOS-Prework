@@ -1,10 +1,10 @@
-# Pre-work - *Name of App Here*
+# Pre-work - *moreTip*
 
-**Name of your app** is a tip calculator application for iOS.
+**moreTip** is a tip calculator application for iOS.
 
-Submitted by: **Your Name Here**
+Submitted by: **Eric Tang**
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## User Stories
 
