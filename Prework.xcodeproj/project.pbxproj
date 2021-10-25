@@ -15,6 +15,8 @@
 		45A7C70825AEC1750072936C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A7C70625AEC1750072936C /* LaunchScreen.storyboard */; };
 		45A7C71325AEC1760072936C /* PreworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A7C71225AEC1760072936C /* PreworkTests.swift */; };
 		45A7C71E25AEC1760072936C /* PreworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A7C71D25AEC1760072936C /* PreworkUITests.swift */; };
+		45E740CA27272F5B00481A6A /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E740C927272F5B00481A6A /* MessageViewController.swift */; };
+		45FB1F3D27224460003D25FB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB1F3C27224460003D25FB /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		45A7C71925AEC1760072936C /* PreworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A7C71D25AEC1760072936C /* PreworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreworkUITests.swift; sourceTree = "<group>"; };
 		45A7C71F25AEC1760072936C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E740C927272F5B00481A6A /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		45FB1F3C27224460003D25FB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		45A7C6EF25AEC1740072936C = {
 			isa = PBXGroup;
 			children = (
+				45FB1F3C27224460003D25FB /* SettingsViewController.swift */,
 				45A7C6FA25AEC1740072936C /* Prework */,
 				45A7C71125AEC1760072936C /* PreworkTests */,
 				45A7C71C25AEC1760072936C /* PreworkUITests */,
@@ -106,6 +111,7 @@
 				45A7C70425AEC1750072936C /* Assets.xcassets */,
 				45A7C70625AEC1750072936C /* LaunchScreen.storyboard */,
 				45A7C70925AEC1750072936C /* Info.plist */,
+				45E740C927272F5B00481A6A /* MessageViewController.swift */,
 			);
 			path = Prework;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 				45A7C70025AEC1740072936C /* ViewController.swift in Sources */,
 				45A7C6FC25AEC1740072936C /* AppDelegate.swift in Sources */,
 				45A7C6FE25AEC1740072936C /* SceneDelegate.swift in Sources */,
+				45FB1F3D27224460003D25FB /* SettingsViewController.swift in Sources */,
+				45E740CA27272F5B00481A6A /* MessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +450,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prework.moreTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,6 +468,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prework.moreTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
